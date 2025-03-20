@@ -33,8 +33,9 @@ public class BaseClass {
 	
 	
 	@AfterClass
-	public void shutdown()
+	public void shutdown() throws InterruptedException
 	{
+		Thread.sleep(5000);
 		driver.close();
 	}
 	

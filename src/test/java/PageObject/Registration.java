@@ -30,6 +30,8 @@ public class Registration extends BasePage{
 @FindBy(xpath="//input[@id='repeatedPassword']") WebElement cpwd;
 	@FindBy(xpath="//input[@value='Register']") WebElement butn;
 	
+
+	
 	
 	public void registrationlink()
 	{
@@ -100,7 +102,6 @@ public class Registration extends BasePage{
 	{
 		butn.click();
 	}
-	
 	
 	
 	

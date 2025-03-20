@@ -1,9 +1,12 @@
 package TestCase;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObject.Login;
@@ -24,8 +27,14 @@ public class LoginPage extends BaseClass{
 		Login log = new Login(driver);
 		
 		log.Userdetails(p.getProperty("UserName"));
-		log.userPassword(p.getProperty("Password"));
+		log.userPassword("Kbahhsiue");
 		log.butnLogin();
+	String text =log.verifyMsg();
+	Assert.assertEquals(text, "The username and password could not be verified.");
+
+
+		
+	
 	}
 	
 	

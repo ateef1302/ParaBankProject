@@ -23,7 +23,7 @@ public class Login extends BasePage{
 @FindBy(xpath="//input[@name='username']") WebElement user;
 @FindBy(xpath="//input[@name='password']") WebElement pass;
 @FindBy(xpath="//input[@value='Log In']") WebElement login;
-
+@FindBy(xpath=("//p[@class='error']")) WebElement msg;
 
 
 
@@ -35,7 +35,6 @@ public void Userdetails(String usr)
 
 public void userPassword(String pwd)
 {
-	
 pass.sendKeys(pwd);
 }
 
@@ -45,6 +44,16 @@ public void butnLogin()
 login.click();
 }
 
+public String verifyMsg()
+{
+try {
+	return (msg.getText());
+}
+catch(Exception e)
+{
+	return(e.getMessage());
+}
+}
 
 
 

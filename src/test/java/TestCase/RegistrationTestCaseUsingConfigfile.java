@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObject.Registration;
@@ -37,8 +38,6 @@ public class RegistrationTestCaseUsingConfigfile extends BaseClass{
 	rg.password(p.getProperty("password"));
 	rg.confirmpassword(p.getProperty("confirmpassword"));
 	
-	
-		
 	}
 }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
