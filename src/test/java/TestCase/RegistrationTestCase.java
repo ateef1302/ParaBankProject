@@ -13,17 +13,17 @@ public class RegistrationTestCase extends BaseClass{
 	{
 		Registration rg=new Registration(driver);
 		rg.registrationlink();
-		rg.firstName("Ateef");
-		rg.lastname("Aleem");
-		rg.Address("lokhandwala primises");
-		rg.Cityname("Solapur");
-		rg.Statename("Maharashtra");
-		rg.Zipcode("413004");
-		rg.socialsecuritynumber("ZALKA9982Y");
-		rg.phoneNumber("8208817166");
-		rg.UserName("TMOUSA");
-		rg.password("MeetaData");
-		rg.confirmpassword("MeetaData");
+		rg.firstName("Ateefa");
+		rg.lastname("Aleema");
+		rg.Address("lokhandwala primisesa");
+		rg.Cityname("Solapura");
+		rg.Statename("Maharashtraa");
+		rg.Zipcode("413005");
+		rg.socialsecuritynumber("ZALKA9982K");
+		rg.phoneNumber("8208817167");
+		rg.UserName("TMOUSA0");
+		rg.password("MeetaData1");
+		rg.confirmpassword("MeetaData1");
 		rg.butnRegistration();
 		
 		

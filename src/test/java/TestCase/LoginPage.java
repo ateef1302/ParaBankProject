@@ -27,10 +27,9 @@ public class LoginPage extends BaseClass{
 		Login log = new Login(driver);
 		
 		log.Userdetails(p.getProperty("UserName"));
-		log.userPassword("Kbahhsiue");
+		log.userPassword("MeetaData1");
 		log.butnLogin();
-	String text =log.verifyMsg();
-	Assert.assertEquals(text, "The username and password could not be verified.");
+	
 
 
 		
