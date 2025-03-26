@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="Suite" parallel="Test">
+  <test thread-count="5" name="chromeTest">
+ <parameter name="os" value="Windows"></parameter>
+ <parameter name="browser" value="chrome"></parameter>
+ 
+    <classes>
+      <class name="TestCase.ForgatLogin"/>
+      <class name="TestCase.RegistrationTestCaseUsingConfigfile"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="edgeTest">
+ <parameter name="os" value="Windows"></parameter>
+ <parameter name="browser" value="edge"></parameter>
+ 
+    <classes>
+      <class name="TestCase.ForgatLogin"/>
+      <class name="TestCase.RegistrationTestCaseUsingConfigfile"/>
+    
+    </classes>
+  </test>
+  
+    <test thread-count="5" name="firfoxTest">
+ <parameter name="os" value="Windows"></parameter>
+ <parameter name="browser" value="fire"></parameter>
+ 
+    <classes>
+      <class name="TestCase.ForgatLogin"/>
+      <class name="TestCase.RegistrationTestCaseUsingConfigfile"/>
+    
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

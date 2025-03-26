@@ -21,7 +21,7 @@ public class RegistrationTestCase extends BaseClass{
 		rg.Zipcode("413005");
 		rg.socialsecuritynumber("ZALKA9982K");
 		rg.phoneNumber("8208817167");
-		rg.UserName("TMOUSA0");
+		rg.UserName("Ateef");
 		rg.password("MeetaData1");
 		rg.confirmpassword("MeetaData1");
 		rg.butnRegistration();

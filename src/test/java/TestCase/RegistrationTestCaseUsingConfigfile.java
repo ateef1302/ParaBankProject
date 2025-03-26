@@ -34,7 +34,7 @@ public class RegistrationTestCaseUsingConfigfile extends BaseClass{
 	rg.Zipcode(RandomStringzip().toUpperCase());
 	Thread.sleep(5000);
 	rg.socialsecuritynumber(socialScuritynumber().toUpperCase());
-	rg.UserName(p.getProperty("UserName"));
+	rg.UserName(p.getProperty(Usernumber().toUpperCase()));
 	rg.password(p.getProperty("password"));
 	rg.confirmpassword(p.getProperty("confirmpassword"));
 	

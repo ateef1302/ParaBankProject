@@ -1,1 +1,11 @@
+PageObject\Login.class
 PageObject\BasePage.class
+TestCase\RegistrationTestCaseUsingConfigfile.class
+PageObject\Registration.class
+TestCase\RegistrationTestCase.class
+testBase\BaseClass.class
+TestCase\ForgatLogin.class
+TestCase\LoginPage.class
+PageObject\ForgetLogin.class
+PageObject\AccountServices.class
+TestCase\OpenNewAccount.class
